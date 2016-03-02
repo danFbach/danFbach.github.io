@@ -1,32 +1,32 @@
+
 	body { 
-		background-color: grey;
-	}
+		background-color: orange;
+		}
 	div.container{
-		postion:static;
+		width:80%;
+		postion:absolute;
 		background-color: black;
 		height:100%;
-	}
+		}
 	h1 {
 		text-align:center;
 		color: #FFFFFF;
 		text-shadow: -3px 2px #666fFe;
 		font-size:300%;
-	}	
+		}	
 	h3 {
 		text-align:center;
 		color:#66681b;
 		text-decoration:underline;
 		text-decoration-color:white;
-	}
-	h3-2{	
-	}	
+		}
 	h5{
 		text-align:center;
 		color:#666fFe;	
 		text-shadow: -1px 1px #FFFFFF;
 		letter-spacing:2px;
 		font-size:125%;
-	}
+		}
 	div.imgNest{
 		font-size:130%;	
 		text-align:center;
@@ -34,14 +34,20 @@
 		color:#66681b;
 		text-decoration:underline;
 		text-decoration-color:white;
+		object-position:center;
 	}
-	p {
+	div.bottom{		
+		text-align:center;
+		height:100%;
 		color:orange;
-	}
+		}
+		
+	p {
+		text-indent: 30px;
+		color:orange;
+		}
 	
-	.myClass { 
-		color: red;
-	}
+	
 
 
 
