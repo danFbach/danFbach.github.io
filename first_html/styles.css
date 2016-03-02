@@ -11,12 +11,15 @@
 		color: #FFFFFF;
 		text-shadow: -3px 2px #666fFe;
 		font-size:300%;
-	}
+	}	
 	h3 {
+		text-align:center;
 		color:#66681b;
 		text-decoration:underline;
 		text-decoration-color:white;
 	}
+	h3-2{	
+	}	
 	h5{
 		text-align:center;
 		color:#666fFe;	
@@ -24,16 +27,22 @@
 		letter-spacing:2px;
 		font-size:125%;
 	}
+	div.imgNest{
+		font-size:130%;	
+		text-align:center;
+		opacity:0.8;
+		color:#66681b;
+		text-decoration:underline;
+		text-decoration-color:white;
+	}
 	p {
-
-	color:orange;
+		color:orange;
 	}
-	.myId { 
-		color: green;
-	}
+	
 	.myClass { 
 		color: red;
 	}
 
 
 
+	
