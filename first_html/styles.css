@@ -1,15 +1,39 @@
-body { 
-      background-color: grey;
-}
-h1 { 
-      color: blue;
-}
-.myId { 
-      color: green;
-}
-.myClass { 
-      color: red;
-}
+	body { 
+		background-color: grey;
+	}
+	div.container{
+		postion:static;
+		background-color: black;
+		height:100%;
+	}
+	h1 {
+		text-align:center;
+		color: #FFFFFF;
+		text-shadow: -3px 2px #666fFe;
+		font-size:300%;
+	}
+	h3 {
+		color:#66681b;
+		text-decoration:underline;
+		text-decoration-color:white;
+	}
+	h5{
+		text-align:center;
+		color:#666fFe;	
+		text-shadow: -1px 1px #FFFFFF;
+		letter-spacing:2px;
+		font-size:125%;
+	}
+	p {
+
+	color:orange;
+	}
+	.myId { 
+		color: green;
+	}
+	.myClass { 
+		color: red;
+	}
 
 
 
