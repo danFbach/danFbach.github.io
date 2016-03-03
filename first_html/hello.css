@@ -1,20 +1,57 @@
 body{
 	background-color:grey;
+	border:dotted;
+	height:100%;
+
 }
 
-.top{
-	background-color:black;
+table{
+	border-collapse: collapse;
+	border:dotted;
+	width:100%;
 	color:red;	
 }
+.top{
+	background-color:white;
+	color:white;
+}
 .left{
-	color:blue;
+	width:100;
+	height:600px;
+	rowspan:'2';
+	border:dotted;
+	color:black;
+	background:blue;
+}
+.menu{
+	background-color:white;
+	border:dotted;
+	color:orange;
+	font-size:32px;
+	text-align:center;
+	height:100;
+}
+.right{
+	colspan:2;
+	color:white;
+	border:dotted;
+	background:red;
 }
 h1{
+	font-family:"Trebuchet MS";
 	text-align:center;
-	color
-
+	color:green;
 }
 h2{
+	font-family:"Trebuchet MS";
 	text-align:center;
-
+}
+/* DIVS */
+div.container{
+	border:dotted;
+	width:80%;
+	postion:absolute;
+	background-color: black;
+	height:100%;
+	margin-left:10%;
 }
