@@ -1,0 +1,153 @@
+body{
+	background-color:#222222;
+	height:100%;
+	border:0px;
+
+}
+table{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	width:100%;
+	height:100%;
+	background-color:transparent;
+	border-width:1px;
+	border-color:transparent;
+}
+.top{
+	padding-top:15%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color:transparent;
+	border-width:0px;
+	border-color:transparent;
+}
+.left{
+	width:15%;
+	color:#555555;
+	vertical-align:top;
+	text-align:center;
+	border-style:dotted;
+	border-width:1px;
+	border-color:transparent;
+	border-right-color:green;
+}
+
+.searchBox{
+	width:70%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	vertical-align:middle;
+	text-align:center;
+	border-color:transparent;
+	border-width:2px;
+}
+.right{
+	width:15%;
+	color:#555555;
+	vertical-align:top;
+	text-align:center;
+	border-style:dotted;
+	border-width:1px;
+	border-color:transparent;
+	border-left-color:green;
+}
+h1{	
+	text-align:center;
+	color: white;
+	text-shadow: -3px 2px green;
+	font-size:400%;
+}
+h2{
+	/* font-family:"Trebuchet MS", Helvetica, sans-serif; */
+	text-align:center;
+}
+h3{
+	/* font-family:"Trebuchet MS", Helvetica, sans-serif; */
+	text-align:center;
+	font-size:115%;
+	color: white;
+	text-shadow:;
+}
+h2.link{	
+	text-align:justify;
+}
+a:link, a:visited {
+    color: white;
+	background-color:black;
+	text-align:justify;
+	padding:10px 20px;
+	display: inline-block;
+}
+a:hover, a:active {
+	color: orange;
+	background-color:grey;
+	display: inline-block;
+	padding:10px 10px;
+    
+}
+
+/* DIVS */
+div.container{
+	max-width:1000px;
+	width:80%;
+	postion:relative;
+	background-color:#111111;
+	vertical-align:middle;
+	align:center;
+}
+/* Search Box*/
+#tfheader{
+	background-color:transparent;
+}
+#tfnewsearch{
+	float:center;
+	padding:20px;
+}
+.tftextinput{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:green;
+	background-color:#010101;
+	margin: 0;
+	padding: 5px 15px;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size:14px;
+	border:1px solid white; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.tfbutton {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 5px 15px;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px green;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#111111));
+	background: -moz-linear-gradient(top,  #000000,  #111111);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	color:green;
+	border:solid 1px white;
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#111111), to(#000000));
+	background: -moz-linear-gradient(top,  #111111,  #000000);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+ border: 0;
+}
+.tfclear{
+clear:both;
+}
+
+
+
+
+
+
